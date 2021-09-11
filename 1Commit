@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b;
+    cout << "Введите два числа";
+    cin >> a >> b;
+    cout << "\nСумма:" << a+b;
+    cout << "\nРазность" << a-b;
+    cout << "\nСреднее арифметическое:" << (abs(a)+abs(b))/2;
+    cout << "\nПроизведение:" << a*b;
+    cout << "\nЧастное:" << a/b;
+    return 0;
+} 
